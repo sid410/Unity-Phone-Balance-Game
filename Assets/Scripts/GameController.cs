@@ -10,22 +10,6 @@ public class GameController : MonoBehaviour
 
     private int playerScore;
 
-    //public enum GameState
-    //{ Inbounds, Outbounds }
-
-    //public GameState State
-    //{
-    //    get;
-    //    set;
-    //}
-    //private void ChangeState(GameState newState)
-    //{
-    //    if (State != newState)
-    //    {
-    //        State = newState;
-    //    }
-    //}
-
     private void Start()
     {
         InitGame();
